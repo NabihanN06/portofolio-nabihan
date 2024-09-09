@@ -1,0 +1,162 @@
+@media (max-width: 876px) {
+  .hero {
+    padding: 100px;
+  }
+
+  .text-apaaja {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .text-apaaja h2 {
+    font-size: 23px;
+    margin-right: -80px;
+  }
+
+  .about-me {
+    padding: 40px 40px;
+  }
+
+  .about-me img {
+    width: 200px;
+  }
+
+  .container p {
+    padding: 10px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .school-img img {
+    width: 650px;
+  }
+
+  .skill {
+    padding: 40px 100px;
+  }
+
+  .skills-boxes {
+    width: 100%;
+  }
+
+  .experience {
+    padding: 40px 40px;
+  }
+
+  .expe-text p {
+    font-size: 15px;
+  }
+
+  .contact {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  input,
+  textarea {
+    width: 110%;
+  }
+
+  .contact-info h2 {
+    font-size: 30px;
+  }
+
+  .contact-info p {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 380px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2px;
+    position: sticky;
+    top: 0;
+    background-color: var(--Primary-White);
+    z-index: 1;
+  }
+
+  .hero {
+    padding: 15px;
+  }
+
+  .hero-img {
+    display: flex;
+    position: absolute;
+    right: 10px;
+  }
+
+  .text-apaaja {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    padding-bottom: 30px;
+  }
+
+  .text-apaaja h2 {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 300px;
+  }
+
+  .about-me {
+    padding: 40px 40px;
+  }
+
+  .about-me img {
+    width: 200px;
+  }
+
+  .container p {
+    padding: 10px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .school-img img {
+    width: 650px;
+  }
+
+  .skill {
+    padding: 40px 100px;
+  }
+
+  .skills-boxes {
+    width: 100%;
+  }
+
+  .experience {
+    padding: 40px 40px;
+  }
+
+  .expe-text p {
+    font-size: 15px;
+  }
+
+  .contact {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  input,
+  textarea {
+    width: 110%;
+  }
+
+  .contact-info h2 {
+    font-size: 30px;
+  }
+
+  .contact-info p {
+    font-size: 25px;
+  }
+}
