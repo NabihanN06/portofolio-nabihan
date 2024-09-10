@@ -91,6 +91,10 @@
     right: 10px;
   }
 
+  .hero-img img {
+    width: 200px;
+  }
+
   .text-apaaja {
     width: 100%;
     margin-top: 20px;
@@ -107,10 +111,12 @@
 
   .about-me {
     padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
   }
 
   .about-me img {
-    width: 200px;
+    width: 150px;
   }
 
   .container p {
@@ -119,18 +125,50 @@
 
   .container {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
   }
 
   .school-img img {
-    width: 650px;
+    width: 332px;
+  }
+
+  .school-box h5 {
+    font-size: 18px;
+  }
+
+  .school-box span {
+    font-size: 13px;
+    padding-left: 20px;
   }
 
   .skill {
-    padding: 40px 100px;
+    padding: 40px 20px;
+    align-items: center;
+  }
+
+  .skills {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px 100px 10px 100px; */
+  }
+
+  .skill img {
+    width: 80px;
+  }
+
+  .skills p {
+    font-size: 12px;
   }
 
   .skills-boxes {
-    width: 100%;
+    width: 20%;
+    /* align-items: center; */
+    gap: 20px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    max-width: 900px;
   }
 
   .experience {
@@ -144,12 +182,18 @@
   .contact {
     padding: 40px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    gap: 20px;
   }
 
   input,
   textarea {
-    width: 110%;
+    width: 100%;
+  }
+
+  .contact-info {
+    padding: 0;
   }
 
   .contact-info h2 {
